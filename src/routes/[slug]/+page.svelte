@@ -1,8 +1,9 @@
-<script>
-	/** @type {import('./$types').PageData} */
-	export let data;
+<script lang="ts">
+	import type { PageData } from './$types';
 
-	window.location.href = data.url;
+	export let data: PageData;
+
+	window.location.replace(data.url);
 </script>
 
 <div class="text-center">
