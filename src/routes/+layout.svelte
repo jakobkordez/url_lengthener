@@ -2,6 +2,10 @@
 	import '../app.css';
 </script>
 
+<svelte:head>
+	<title>URL Lengthener</title>
+</svelte:head>
+
 <div class="flex flex-col min-h-screen">
 	<div class="py-12 container mx-auto flex-1">
 		<slot />
